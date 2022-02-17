@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Muli:400,600,700&display=swap");
+html {
+  font-family: "Muli", sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+.main-container {
+  margin-top: 2em;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.secondary-title {
+  font-weight: 900;
+  font-size: 15px;
+}
+
+.list-item {
+  margin-bottom: 10px;
+}
+
+.section-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  padding: 10px 20px;
+  border-bottom: 5px solid #413f3f;
+}
+
+.date-location {
+  display: flex;
+  margin-right: auto;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.stack {
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
+  border-radius: 3px;
+  padding: 2px 7px;
+  background: #f7f7f7;
+  display: inline;
+}
+
+.underlined-stack {
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
+  border-radius: 3px;
+  padding: 2px 7px;
+  background: #f7f7f7;
+  border-bottom: 3px solid #d32f2f;
+  display: inline;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.skill-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill-row > p {
+  margin: 0;
+  margin-left: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.footer {
+  border-top: 4px solid #eee;
+  text-align: end;
+  font-size: 0.9em;
+  margin-top: 2em;
+}
