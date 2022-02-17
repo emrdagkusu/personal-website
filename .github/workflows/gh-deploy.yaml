@@ -1,0 +1,27 @@
+name: Deploy to Github Pages
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Gatsby build
+        run: npm run build
+      - name: Push to github.io
+        id: push_directory
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source-directory: public/
+          destination-github-username: "emrdagkusu"
+          destination-repository-name: "emrdagkusu.github.io"
+          user-email: emrdagkusu@gmail.com
+          commit-message: See ORIGIN_COMMIT from $GITHUB_REF
+          target-branch: main
