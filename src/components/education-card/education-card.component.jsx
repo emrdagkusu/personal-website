@@ -11,14 +11,14 @@ const EducationCard = () => {
             <h1 className="section-title">Education</h1>
             <div>
                 <h1 className="title">Abdullah Gul University</h1>
-                <h1 className="secondary-title" style={{color: `#d32f2f`}}>B.S. IN COMPUTER ENGINEERING</h1>
+                <h1 className="secondary-title" style={{ color: `#d32f2f` }}>B.S. IN COMPUTER ENGINEERING</h1>
                 <div className="date-location">
-                    <p><BsCalendar /> Sep 2018 - Expected: Jun 2023</p>
+                    <p><BsCalendar /> Sep 2018 - Jun 2023</p>
                     <p><FaMapMarkerAlt /> Kayseri, Turkey</p>
                     <p></p>
                     <p></p>
                 </div>
-                <p className="stack">&nbsp;CGPA: 3.81  &nbsp; &nbsp; | &nbsp; &nbsp; 3rd Year&nbsp;</p>
+                <p className="stack">&nbsp;CGPA: 3.87</p>
             </div>
         </div>
     )

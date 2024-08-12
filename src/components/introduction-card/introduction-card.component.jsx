@@ -11,11 +11,7 @@ const IntroductionCard = () => {
             <Title>Hi, I'm Emrullah.</Title>
             <Snippet>Computer Engineering Student</Snippet>
             <Description>
-                I am a third-year student at Abdullah Gül University in Turkey, currently studying Computer Engineering. 
-                I'm interested in backend services with <p className="underlined-stack">Python</p> and I have some experience 
-                in the fields of mobile and web development. Indeed, I'm very open to discovering different fields. 
-                Even though I don't have much experience, I'm interested in DevOps tools 
-                such as <p className="underlined-stack">Docker</p> and <p className="underlined-stack">Kubernetes</p>.
+                As a recent graduate in Computer Engineering, I'm actively applying my skills in C++, Qt, and Rhapsody. My passion for software development drives me to contribute to cutting-edge projects and continually expand my knowledge in the field. Let's connect and explore how we can work together to drive technology forward.
             </Description>
             <SocialIcons>
                 <CustomIcon href="https://www.linkedin.com/in/emrdagkusu/" target="_blank" rel="noreferrer">
